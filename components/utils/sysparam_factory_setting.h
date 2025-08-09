@@ -3,7 +3,7 @@
 #define __SYSPARAM_FACTORY_SETTING_H__
 
 
-/**<  network(STA) default parameters */ 
+/**<  network(STA) default parameters */
 #define STA_IP_ADDR               ("192.168.1.1")   /**<  static ip addr */
 #define STA_IP_NETMASK            ("255.255.255.0") /**<  subnet mask    */
 #define STA_IP_GATWAY             ("192.168.1.1")   /**<  gateway        */
@@ -16,7 +16,7 @@
 #define STA_MAC_ADDR2             (0xC2)
 #define STA_MAC_ADDR3             (0x5E)
 #define STA_MAC_ADDR4             (0x10)
-#define STA_MAC_ADDR5             (0x88)
+#define STA_MAC_ADDR5             (0x89)
 
 /**<  network(SoftAP) default parameters */
 #define SOFTAP_IP_ADDR            ("192.168.4.1")   /**<  ip addr        */
@@ -33,7 +33,7 @@
 #define SOFTAP_MAC_ADDR5          (0x99)
 
 
-/**<  wifi(SoftAP mode) cfg default parameters */ 
+/**<  wifi(SoftAP mode) cfg default parameters */
 #define SOFTAP_SSID               ("LN882H_WiFi")
 #define SOFTAP_PWD                ("12345678")
 #define SOFTAP_CHANNEL            (6)
@@ -43,7 +43,7 @@
 //#define SOFTAP_MAX_CONNECTION     (3)
 #define SOFTAP_COUNTRY_CODE       (0)    /**<  reference wifi_country_code_t(wifi.h) */
 
-/**<  wifi(STA mode) cfg default parameters */ 
+/**<  wifi(STA mode) cfg default parameters */
 #define TARGET_AP_SSID            ("TP-LINK_58E6")
 #define TARGET_AP_PWD             ("12345678")
 //#define TARGET_AP_BSSID           (0)
@@ -53,7 +53,7 @@
 #define STA_POWERSAVE_MODE        (0)    /**<  reference sta_ps_mode_t(wifi.h) */
 
 
-/**<  DHCP server cfg default parameters */ 
+/**<  DHCP server cfg default parameters */
 #define DHCP_ENABLE               (1)    /**<  (STA mode)DHCP client enable */
 #define DHCPD_ENABLE              (1)    /**<  (SoftAP mode)DHCP server enable */
 #define DHCPD_IP_LEASE_TIME       (2880) /**<  (uints:minute) */
@@ -64,7 +64,7 @@
 #define DHCPD_IP_POOL_START       ("192.168.4.101")
 #define DHCPD_IP_POOL_END         ("192.168.4.103")
 
-/**<  mDNS cfg default parameters */ 
+/**<  mDNS cfg default parameters */
 #define MDNS_ENABLE               (0)
 #define MDNS_HOSTNAME             ("lightning_semi")
 #define MDNS_SERVER_NAME          ("iot")
@@ -75,7 +75,7 @@
 #define DNS_SERVER1               ("114.114.114.114")
 #define DNS_SERVER2               ("208.67.222.222")
 
-/**<  SNTP server cfg default parameters */ 
+/**<  SNTP server cfg default parameters */
 #define SNTP_ENABLE               (0)
 #define SNTP_TIMEZONE             (8)
 #define SNTP_SERVER0              ("time1.aliyun.com")
@@ -83,7 +83,7 @@
 #define SNTP_SERVER2              ("time.windows.com")
 
 
-/**<  Misc cfg default parameters */ 
+/**<  Misc cfg default parameters */
 #define WIFI_MODE_DEFAULT         (0)    /**<  reference wifi_mode_t(wifi.h) */
 #define STA_POWERON_AUTO_CONN     (1)    /**<  whether to automatically connect to AP after power on */
 #define AP_LIST_INFO_MASK         (0x7FF)/**<  bit0:auth_mode,bit1:ssid,bit2:rssi,bit3:mac,bit4:ch,bit5:freq_ofst, \
